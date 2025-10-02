@@ -27,25 +27,25 @@ export const siteConfig: SiteConfig = {
 	*/
 	title: "Astro Cactus Blog",
 	// ! Please remember to replace the following site property with your own domain, used in astro.config.ts
-	url: "https://refigo.github.io/astro-cactus-blog/",
+	url: "https://refigo.github.io/astro-cactus-blog",
 };
 
 // Used to generate links in both the Header & Footer.
 export const menuLinks: { path: string; title: string }[] = [
 	{
-		path: "/",
+		path: "/astro-cactus-blog/",
 		title: "Home",
 	},
 	{
-		path: "/about/",
+		path: "/astro-cactus-blog/about/",
 		title: "About",
 	},
 	{
-		path: "/posts/",
+		path: "/astro-cactus-blog/posts/",
 		title: "Blog",
 	},
 	{
-		path: "/notes/",
+		path: "/astro-cactus-blog/notes/",
 		title: "Notes",
 	},
 ];
